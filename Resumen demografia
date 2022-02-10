@@ -1,0 +1,53 @@
+---
+title: "Resumen Demografía"
+author: "Alondra Delgado"
+date: "2/9/2022"
+output: html_document
+---
+## POBLACIÓN Y DEMOGRAFIA
+### 1. Conceptos básicos
+
+> #### ¿Qué es la población?
+
+Conjunto de individuos, ligado por vínculos de reproducción e identificado por características territoriales, poliíticas o religiosas.
+Una población se define por las características que trazan su perfil y sus límites.
+Estás características pueden ser de distinta naturaleza y la más común es la geográfica. Los límites y fronteras de las distintas poblaciones son tales que se asume su propia autonomía y estabilidad, reproduciéndose y conservándose en el tiempo.
+Las poblaciones se forman y se extinguen (se extinguen porque poblaciones inicialmente distintas se fusionan entre si).
+
+> #### ¿Qué es la demografia?
+
+Estudia aquellos procesos que determinan la formación, la conservación y la desaparición de las poblaciones. Que en su forma más agregada son los de fecundidad, mortalidad y movilidad. La variedad de combinaciones de estos fenómenos determina las modificaciones.
+
+### 2. Componentes básicos de una población y de su estructura 
+
+Toda población está compuesta por unidades básicas (los individuos) y por elementos compuestos (la pareja, familia,  la comunidad, etc).
+La demografía dedica su atención al sexo, la edad, el estado civil, el lugar de nacimiento y de residencia, características que permiten construir un perfil individual para interpretar los fenómenos relacionados con la fecundidad, la mortalidad y la movilidad. Su combinación determina la variación numérica de una población. 
+Las poblaciones no se diferencian solamente por su ritmo de crecimiento, sino también por su estructura.
+
+La _estructura por edad_ es de interés primordial, dado que los fenómenos de fecundidad y mortalidad dependen en gran medida de la edad. 
+
+La _estructura por sexo_ está determinada por la relación entre sexos en el momento de nacer y por los distintos niveles de mortalidad masculina y femenina, dado que la mortalidad casi nunca se reparte de forma igual en ambos sexos.
+
+### 3. Procesos de cohesión y de agregación en una población
+Los mismos fenómenos, o sus componentes, que determinan el crecimiento y la estructura de las poblaciones son también poderosos factores de cohesión y repulsión.
+La nupcialidad (la formación de las parejas con fines reproductivos) es un proceso de atracción entre individuos de sexo opuesto para la formación de una unión estable.
+Fuerzas de signo opuesto contrarrestan y destruyen los procesos y los resultados de los fenómenos de cohesión: así, los núcleos o los grupos familiares se reducen, se deshacen y desaparecen por causa de divorcio, muerte, marcha de los hijos y de otros miembros. Ls procesos de agregación y de cohesión son esencialmente selectivos: es decir, que no ejercen la misma presión sobre cada individuo.
+
+### 4. Lo biológico y lo social, o las dos almas de la demografía
+La demografía tiene dos almas: una ligada a lo biológico, la otra a lo social. Gran parte de los fenómenos demográficos son manifestaciones de procesos biológicos: basta pensar en la fecundidad y en la mortalidad. 
+Factores naturales y factores sociales coexisten y se influyen mutuamente. Por ejemplo, la alimentación (fenómeno social) tiene consecuencias biológicas y puede alterar, en un sentido u otro, la supervivencia, puede hacer variar la edad de la pubertad y puede también determinar variaciones en la fertilidad.
+
+## Fuentes, estadísticas y errores
+### 1. La demografía y sus métodos
+
+Las características de los datos recogidos, su fiabilidad y su validez son aspectos que generalmente se abordan con mayor precisión técnica en las introducciones de los manuales de estadística, pero que no pueden ser eludidos en un manual de demografía.
+Se entiende por fuentes el instrumento institucional u organizativo mediante el cual se recogen los datos de interés demográfico. La naturaleza de los datos se refiere a la unidad objeto de la recogida de datos, a las características descritas, su elaboración y presentación. La fiabilidad y los errores se refieren a la correspondencia entre el dato estadístico y la realidad que debe describir.
+
+### 2. Las fuentes de datos de stock: los censos 
+
+El censo debe cumplir diversos requísitos: cada individuo tiene que ser contabilizado de forma separada con todas las características que el plan prevé. El censo debe ser ***universal*** dentro de los límites del territorio censado, ningún individuo o categoría de persona debe ser descuidado; debe ser ***simultáneo*** en el sentido de que la enumeración tiene que referirse a un mismo día u hora). Finalmente, los censos deben tener una ***periodicidad*** definida, que normalmente es de 10 años.
+
+### 3. Naturaleza de los datos
+
+Según la definición del censo de 1991 de España, «la familia se define como el grupo de personas (dos o más) que, residiendo en la misma vivienda familiar, comparten algunos gastos en común y están vinculados por lazos de parentesco, ya sean de sangre o políticos, e independientemente de su grado». Se consideran parte de la familia para el censo las personas pertenecientes al servicio doméstico o aquellas que conviven habitualmente por cualquier motivo con la familia.
+Es necesario conocer los resultados por regiones, provincias y municipios y, en casos de grandes municipios, puede resultar útil, incluso, subdividirlos en distritos, barrios, etc.).
