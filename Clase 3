@@ -1,0 +1,147 @@
+<font size="1"> Clase 3 </font> 
+
+## Diagrama de Lexis
+
+<div style="text-align: justify"> Se puede definir también como una linea de vida.
+ 
+El diagrama de Lexis ayuda a comprender algunos eventos y fenómenos demográficos a través de una línea en el tiempo.
+Delimitacion temporal, en demografía, es escencial en el tiempo como un elemento indispensable para analizar la dinamica constante y cambios en espacios poblacionales.
+
+En particular, en la demografía podemos definir dos tiempos:
+
+  1. Tiempo calendario
+  2. Tiempo de eventos demograficos
+  
+  _Por ejemplo:_ 
+  
+  <span style="color: blue;"> _edad_ </span>  se puede medir en dos sentidos:
+  
+  + por un lado, se mide a partir del nacimiento. 
+  + por el otro, se puede en años cumplidos (aniversario).
+  
+  En demografia existe el concepto de  <span style="color: blue;"> __edad exacta__ </span> .
+  Este concepto de <span style="color: blue;"> __edad exacta__ </span> se puede ejemplificar de la siguiente manera:
+  
+  Supongamos que una persona nació el 23 de julio de 1985 y queremos saber cuantos años tiene al 11 de marzo de 2022... han transcurrido 262 días hasta el 11 de marzo del 2022
+  
+  
+36 años 262 dias... 36 + (262/365) = 36.72... __edad exacta__
+  
+Representación gráfica 
+
+
+
+
+-------------------------------------------
+
+
+
+
+Un elemento importante que interesa en los fenómenos demográficos es el número de eventos que ocurren a través del tiempo, en este sentido, en el diagrama de lexis se pueden representar:
+
++ los nacimientos, 
++ las defunciones, 
++ matrimonios, etc. 
+
+En este diagrama serán tomados los años calendario y las edades cumplidas.
+ 
++ __*Flujo:*__ Tiene que ver con la población que permanece en el tiempo.
+
++ *__Efectivo:__* Tiene que ver con la ocurrencia de un evento en un tiempo determinado.  
+
+       Los efectivos son nacidos menos defunciones, los que llegan con vida al año uno.
+
++ *__Cohorte:__* Un grupo de individuos o personas que experimentan un evento durante un tiempo determinado.
+
++ *__Generación:__* grupo de individuos que nacen en un momento determinado.
+ 
+ 
+ Ahora vamos a plantear unos eventos demográficos que ocurren en el diagrama planteado.
+ 
+ 1. ab= nacimientos 1990
+
+ 2. ac + bd= dos lineas de vida
+ 
+ 3. abc= defunciones 1990
+ 
+ 4. cbd= defunciones 1991
+ 
+ Digamos que en demografia se pueden plantear tres tipos de análisis:
+ 
+ a. __*análisis transversal*__ que se asocia a un momento en el tiempo
+ 
+ b. __*análisis longitudinal*__ que se vincula con estudios a tráves del tiempo, es decir, análisis de una generación o análisis de una cohorte.
+ 
+ c. __*análisis retrospectivos*__ se vincula con los estudios que se realizan en un tiempo asado, es decir, el análisis de vida una población adulta mayor durante su juventud.
+ 
+ En particular, vamos a ver el análisis longitudinal que se relaciona con el diagrama de Lexis, uno de los aspectos importantes del diagrama de lexis es que tiene que ver con el análisis longitudinal.
+ 
+ Por ejemplo: se les llama __*eventos demográficos*__ a los nacimientos, las defunciones y la nupcialidad, de estos eventos surgen fenómenos demógraficos como la fecundidad, la mortalidad y la migración.
+ 
+-----------------------------------------------------
+ 
+## MEDIDAS EN DEMOGRÁFIA
+
+### Medidas relativas
+ 
+ + *__Razones:__* es el cociente entre dos magnitudes independientes.
+    - por ejemplo: 
+    
+<font size="1.5">  $$ \frac{Poblacion.masculina}{Población.femenina} $$ </font> 
+
+<center> _¿Cuántos hombres hay con respecto a la población femenina?_ </center> 
+ 
+Población masculina = 45421
+  
+Población femenina = 46185
+ 
+ <font size="1.5"> $$ \frac{454421}{46185}=98.348 $$</font> 
+ 
+<center> _Por cada 100 mujeres hay 98.3 hombres_ </center> 
+ 
+ + *__Proporciones:__* es la relacion entre dos medidas de efectivo o flujo.
+    - por ejemplo:
+    
+<font size="1.5">  $$ \frac{Poblacion.masculina}{Población.total} $$ </font>
+    
+<center> _Proporcion de hombres con respecto a la poblacion total_ </center>
+
+Población masculina = 45421
+
+Población total = 91606
+   
+<font size="1.5">$$ \frac{45421}{91606} = 0.4952$$ </font>    
+    
+<center> _La proporcion de hombres en la población es de .49, si lo traducimos a porcentajes multiplicando por 100, podríamos señalar que por cada 100 habitantes 49 son hombres._ </center>
+
+<font size="1.5">$$ \frac{Nacimientos. de. hombres}{nacimientos. totales}$$ </font>    
+
+ <center> _Número de hombres por cada nacimiento ocurrido_ </center>
+ 
+  
+ + *__Tasa__*: es el cociente entre un flujo y un efectivo
+ 
+    - por ejemplo:
+    
+<font size="1.5"> $$ \frac{Nacimientos. en. un. año}{Población. masculina} $$ </font>
+Nacimientos en un año = 2298
+
+Población masculina = 92394
+
+<font size="1.5">$$ \frac{2290}{92394}= 0.002478$$ </font>
+
+<center> _Multiplicandolo por 1000 se interpreta que por cada 1000 habitantes nacen 84 personas_ </center>
+ 
+ 
+  + *Tasas de crecimiento poblacional*
+     - ejemplo
+     
+ nacimientos 2290
+ 
+ defunciones 420
+ 
+ población 92394
+
+<font size="1.5"> $$ \frac{nacimientos - defunciones}{población. a. mitad. de. año}= \frac{2290-420}{92394}=0.202$$ </font>
+
+ <center> _Si lo multiplicamos por 100, tendríamos una tasa de 20.2 y se interpreta que por cada 100 habitantes hay un incremento de 20 habitantes._ </center>
