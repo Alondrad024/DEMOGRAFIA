@@ -1,0 +1,99 @@
+<font size="1"> Clase 4 </font> 
+
+## Ecuación compositor 
+
+<span style="color: green;"> __Ecuación compositor__ </span> es uno de los principales elementos de la demografía y se plantea de la siguiente manera:
+
+<font size="1.5"> $$ P_{t+n} = P_{t} + N_{t \rightarrow t+n} +I_{t \rightarrow t+n} -E_{t \rightarrow t+n}$$
+
+$$ P_{2022} = P_{2021} + N_{t \rightarrow 2021-2022} +I_{t \rightarrow 21-22} -E_{t \rightarrow 21-22}$$
+
+ $$ P_{t+n} - P_{t} = (N_{t+n}-D_{t+n}) +(I_{t+n}-E_{t+n}) $$</font>
+
+N Nacimientos
+
+D defuciones
+
+I inmigrantes
+
+E emigrantes
+
+<font size="1.5">
+ $$ CP = CN+CS $$ </font>
+ 
+ CP crecimiento poblacional
+ 
+ CN crecimiento natural
+ 
+ CS crecimiento social
+ 
+ 
+ __ejemplo__
+ 
+ <font size="1.5">  $$ Pob_{2004}=293657000$$
+ $$Pob_{2005}= 296410000$$
+ $$N_{2004-2005}=4129000$$
+ $$D_{2004-2005}= 2425000$$
+ $$I_{2004-2005}= 1122000$$
+ $$E_{2004-2005}= 73000 $$
+ 
+  $$ 296410000 - 293657000 = (4129000-2425000) +(1122000-73000) $$ </font> 
+CP= 2753000 
+ 
+CN= 1704000  
+ 
+CS= 1049000   
+ 
+
++ __Migración internacional__
+  
+<font size="1.5"> $$ P_{t+n} = P_{t} + N_{ t+n} +I_{ t+n} -E_{t+n} +\hat I_{ t+n} -\hat E_{t+n}$$
+ $$ CS_{I} = I_{t+n}-E_{t+n} $$ </font> 
+
++ __Migracion interna__
+
+<font size="1.5"> $$ \hat{CS_{I}}= \hat I_{ t+n} -\hat E_{t+n}$$
+ $$ CP= CN+CS_{I}+\hat{CS_{I}} $$ </font> 
+
+ Table: 2005
+
+ **ENTIDADES**   |**CN**   |$CS_{I}$|$\hat CS_{I}$|**CP** | 
+-----------------| --------|--------|------------|--------|
+*EdoMex*         | 44,441  | 49607  |-12202      |   
+*Michoacán*      | 32,585  | 44347  |3381        |
+*Chiapas*        | 35065   | 30486  |7391        |
+*Baja California*| 6724    | 9364   |-2653       |
+*Nuevo León*     | 18518   | 29314  |4996        |
+*Jalisco*        | 2001    | 1044   |174         |
+*Sinaloa*        | 2629    | 699    |-2393       |
+*Guanajuato*     | 3228    | 1940   |1306        |
+Total            |145191   | 16689  |0           |311992
+ 
+
+## Tasas de crecimiento poblacional
+ 
+ *__1) Tasa crecimiento anual__*
+ 
+  <font size="1.5">
+  $$ TCA= \frac{P_{t+1}-P_{t}}{P_{t}}  $$
+  $$ TCA= \frac{296410000-293657000}{293657000} = 0.009357 $$ </font> 
+ 
+ *__2) Tasa crecimiento exponencial (población)__*
+ 
+<font size="1.5"> $$ TCE \rightarrow  P_{t+n}= P_{t}*e^{rn}  $$  </font> 
+  
+  donde
+  
+   P_{t}= población  inicial  
+  
+   t= tasa crecimiento exponencial
+   
+   n= número de años
+   
+   _despejando a r de nuestra ecuación_ 
+   
+   <font size="1.5"> $$ P_{t+n}= P_{t}*e^{rn}  $$
+    $$ \frac{P_{t+n}}{P_{t}}= e^{rn}  $$
+     $$ \ln\left(\frac{P_{t+n}}{P_{t}}\right)= rn $$
+       $$ r = \frac{ \ln\left(\frac{P_{t+n}}{P_{t}}\right)}{n} $$ </font> 
+
