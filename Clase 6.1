@@ -1,0 +1,9 @@
+##Tabular con data frame
+
+entidades <- c("ags","edomex","chiapas")
+tbn <- c(0.0142886, 0.01080, 0.03949243)
+tbm <- c(0.0069605, 0.0089, 0.02247131)
+tbi <- c(0.1929034, 0.03054, 0.04490611)
+tbe <- c(0.101438, 0.079, 0.1270692)
+ base <- data.frame(entidades, tbn, tbm,tbi,tbe)
+base1 <- data.frame(entidades, base[,2:5]*100)
