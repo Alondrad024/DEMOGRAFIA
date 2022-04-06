@@ -1,0 +1,75 @@
+title: "Baja California"
+author: "Alondra Delgado"
+date: '2022-03-30'
+<div style="text-align: justify">
+Para la población media vamos a ocupar la del censo 3769020.
+
+
+### Calcular tasas brutas de Baja California del 2020 de los siguientes eventos: 
+
+1. *__Nacimientos:__* 47945
+
+2. *__Muertes:__* 35487
+
+3. *__Inmigración:__* 1463949
+
+4. *__Emigración__* 211540
+
++ <span style="color: pink;"> _Tasa bruta de natalidad_ </span> 
+
+$TBN= 47945/3769020 = 0.01272081*1000= 112.72081$
+
+Por cada 1000 personas en Baja California del 2020 nacen 113 personas.
+
++ <span style="color: green;"> *Tasa bruta de mortalidad* </span>
+
+$TBM= 35487/3769020 = 0.009415445*1000= 9.415445$
+
+Por cada 1000 personas en Baja California del 2020 se mueren 9.41 personas
+
++ <span style="color: orange;"> *Tasa bruta de inmigración* </span>
+
+$TBI= 1463949/3769020 = 0.3884164*1000= 56.126$
+
+Por casa 1000 personas en Baja California del 2020 inmigran 56.126 personas
+
++ <span style="color: blue;"> *Tasa bruta de emigración* </span>
+
+$TBE= 211540/3769020= 0.056126*1000= 56.126$
+
+Por cada 1000 personas en en Baja California del 2020 emigran 56.126 personas
+
+
+### Proporción de sexos al nacimiento
+
+La <span style="color: brown;"> proporción de sexos al nacimiento </span> se define de la siguiente manera:
+
+$$PSN=\frac{nac_h}{nac_m}$$
+
++ <span style="color: brown;"> Propoción de niños con niñas </span>
+
+$PSN_mx=\frac{828944}{800264}=1.035838$
+
+Si lo multiplicamos por 100
+
+$PSN_mx=103.5838$
+
+En México en el año 2020 nacen 103 niños por cada 100 niñas.
+
++ <span style="color: brown"> Propoción de niños por mujer </span>
+
+$$PNM=\frac{POB_<5años}{POBFem}$$
+
+$POB_<5años= 2827377$
+
+$POBFem_(15-44)=23855033$
+
+$PNM=\frac{2827377}{23855033}$
+
+$PNM=0.1185233$
+
+#Tasa de dependencia
+
+La tasa de dependencia se relaciona a las personas que tienen más posibilidades de ser dependientes
+
+$$TD=\frac{POB_(0-14)+POB_(65)^+}{POB_Fem_(15-64)}$$
