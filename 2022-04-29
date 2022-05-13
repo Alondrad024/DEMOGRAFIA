@@ -1,0 +1,35 @@
+Por ejemplo, si tenemos una población femenina de 15 a 45 años donde la suma de nacimientos de esta población en el año 2009 es de 1896 [niñ\@s](mailto:niñ@s){.email} y esta población son 1000 mujeres.
+
+$TGF= \frac{1896}{1000}=1.896$ por cada mujer nacen 1.9 niños
+
+$TGF=\sum(tef)$
+
+$TBR=\frac{\sum(tef)}{población femenina}*S$
+
+donde tef es la tasa específica de fecundidad
+
+$S=\frac{100}{100+proporción de sexos}=1.896$ S permite decir solamente las niñas
+
+$proporción de sexo=\frac{nac hombre}{nac mujeres}$
+
+| Gpo edad | Nac. totales | Mujeres | nacimientos mujeres | Tef     | nacimientos hombres |
+|------------|------------|------------|------------|------------|------------|
+| 15-19    | 12130        | 727168  | 5895                | 0.01668 | 6235                |
+| 20-24    | 42103        | 782583  | 20461               | 0.0538  | 21642               |
+| 25-29    | 80933        | 791698  | 39331               | 0.1022  | 41602               |
+| 30-34    | 93107        | 751566  | 46247               | 0.1239  | 46860               |
+| 35-39    | 55985        | 814971  | 27207               | 0.06869 | 28778               |
+| 40-44    | 11480        | 769345  | 5579                | 0.01492 | 5901                |
+|          | 295738       | 4637331 | 144720              |         | 151018              |
+
+$TGF=\sum(tef)=0.3802$
+
+$proporcion sexo=\frac{151018}{143720}=1.050779$ $proporcion sexo=1.050779*100$
+
+$S=\frac{100}{100+1.050779}=0.9896015$
+
+$TBR=\sum(tef)*S= 0.3762465$
+
+Se multiplica por 5 porque son cinco edades
+
+$TBR=\sum(tef)*S= 0.3762465*5=1.881232$
