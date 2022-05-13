@@ -1,0 +1,45 @@
+## Tasas específicas de fecundidad
+
+### Medidas sinteticas de la fecundidad
+
+Para plantear estas medidas tenemos que partir de algunos supuestos:
+
+a)  el grupo poblacional está cerrado a la migración
+
+b)  el grupo está basado en solo un año, es decir, las tasas o medidas sinteticas que se plantean solo se van a realizar para un año en especifico.
+
+c)  en las mujeres no se mueren o no existe mortalidad femenina hasta que concluyan su periodo fertil (45 años).
+
+#Las medidas sinteticas son las siguientes:
+
+Tasa general de fecundidad y se define de la siguiente manera:
+
+TGrF = suma(tasas especificas de fecundidad)
+
+TEF ---- TGrF = suma (TEF)
+
+La siguiente medida es la tasa bruta de reproducción y se define como
+
+$TBR= Suma*S$
+
+donde:
+
+TEF= tasa especifica de fecundidad,
+
+S=probabilidad de sobrevivencia de las mujeres
+
+La última tasa es la tasa neta de reproducción y se define como la $TNR= Suma(TEF)*S*PS$
+
+donde:
+
+TEF= tasa especifica de fecundidad
+
+S= probabilidad de sobrevivencia de las mujeres
+
+PS= es la probabilidad de una mujer de sobrevivir de la edad cero hasta la edad de reproducción
+
+
+install.packages("tidyverse")
+require(tidyverse)
+
+
