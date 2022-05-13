@@ -1,0 +1,29 @@
+Tasa bruta de reproducción: cuantas niñas están naciendo en x población
+
+$TGF=n*\sum_{i=15}^{44} tef^i$ $TBR=n*\sum_{i=15}^{44} tef^i *S$ $TNR=n*\sum_{i=15}^{44} tef^i *S*PS$
+
+| Gpo edad | Nac. totales | Mujeres | nacimientos mujeres | Tef     | nacimientos hombres |
+|------------|------------|------------|------------|------------|------------|
+| 15-19    | 12130        | 727168  | 5895                | 0.01668 | 6235                |
+| 20-24    | 42103        | 782583  | 20461               | 0.0538  | 21642               |
+| 25-29    | 80933        | 791698  | 39331               | 0.1022  | 41602               |
+| 30-34    | 93107        | 751566  | 46247               | 0.1239  | 46860               |
+| 35-39    | 55985        | 814971  | 27207               | 0.06869 | 28778               |
+| 40-44    | 11480        | 769345  | 5579                | 0.01492 | 5901                |
+|          | 295738       | 4637331 | 144720              |         | 151018              |
+
+nachom=nac-nacmuj propsex=sum(nachom)/sum(nacmuj)*100 S= (100/(100*propsex)) tef \<- (nac/pobmuj) teffem \<- (nacmuj/pobmuj) n=5 TGrF= sum((nac)/pobmuj)*5 TGF= sum(tef)*n TBR \<- TGF\*S tasa \<- data.frame(gpoedad, nac, pobmuj, nacmuj, nachom, tef, tefmuj)
+
+###EJERCICIO
+
+Hacer un análisis comparativo de los dos países elegidos con respecto a las IG y TBR... En markdown añadir un poco de contexto sobre las diferencias de los países.
+
+| Gpo edad | Nac. totales | Mujeres | nacimientos mujeres | Tef     | nacimientos hombres |
+|------------|------------|------------|------------|------------|------------|
+| 15-19    | 12130        | 727168  | 5895                | 0.01668 | 6235                |
+| 20-24    | 42103        | 782583  | 20461               | 0.0538  | 21642               |
+| 25-29    | 80933        | 791698  | 39331               | 0.1022  | 41602               |
+| 30-34    | 93107        | 751566  | 46247               | 0.1239  | 46860               |
+| 35-39    | 55985        | 814971  | 27207               | 0.06869 | 28778               |
+| 40-44    | 11480        | 769345  | 5579                | 0.01492 | 5901                |
+|          | 295738       | 4637331 | 144720              |         | 151018              |
