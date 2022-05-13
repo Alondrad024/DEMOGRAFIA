@@ -1,0 +1,30 @@
+
+install.packages("dplyr")
+require (dplyr)
+base1 <- read.csv(file.choose())
+
+base2 <- base1 %>%
+as_tibble () %>%
+mutate (gpoeda = case_when (EDAD >= 0 & EDAD <= 14 ~ 1,
+EDAD >=15 & EDAD <=29 ~ 2,
+EDAD >=30 & EDAD <=59 ~ 3,
+EDAD >=60 & EDAD <=110 ~ 4,
+EDAD ==999 ~ 5),
+conyu = case_when(SITUA_CONYUGAL ==1 | SITUA_CONYUGAL==5 ~ 1,
+SITUA_CONYUGAL >=2 & SITUA_CONYUGAL <=4 ~ 2,
+SITUA_CONYUGAL == 6 ~ 3,
+SITUA_CONYUGAL == 9 ~ 4)) %>% 
+filter (MUN == 3 | MUN==1) %>% 
+select(MUN, SITUA_CONYUGAL, conyu, EDAD, gpoeda, SEXO, FACTOR)
+
+
+table (base2$ EDAD, base2$gpoedad)
+table(base2$SITUA_CONYUGAL, base2$conyu)
+
+table (base2$SEXO) #MUESTRA DE MI SEXO, DATOS MUESTRALES
+
+install.packages("questionr")
+require(questionr) 
+wtd.table(base2$SEXO, weights = base2$FACTOR) #POBLACION QUE HAY EN LOS MUNICIPIOS, DATOS POBLACIONALES
+
+wtd.table(base1$SEXO, weights = base1$FACTOR)
