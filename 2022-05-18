@@ -1,0 +1,71 @@
+
+Elementos de la demografía:
+
+1.  Natalidad
+
+2.  Migración
+
+3.  Mortalidad
+
+Esperanza de vida sea mayor:
+
+-   Pensiones
+
+-   Gastos mayores de salud (Privado y público)
+
+-   Presión hacia PEA (Ocupados, desocupados)
+
+PEA= POBLACIÓN ECONÓMICAMENTE ACTIVA
+
+Muerte: Desaparición de toda evidencia de vida en cualquier tiempo
+después de que una persona haya nacido viva.
+
+## Tasa Bruta de mortalidad
+
+$$TBM_{t \rightarrow t+n}=\frac{M_{t\rightarrow t+n}}{P_{t\rightarrow t+n}}$$
+donde
+
+$M_{t\rightarrow t+n}$ es igual a muertes del tiempo t al tiempo t+n
+$P_{t\rightarrow t+n}$ es la población a mitad del año de t a t+n
+
+##Ejemplo:
+
+Muertes= $\rightarrow 623300$
+
+Población a mitad del año= $\rightarrow 127000000$
+
+$$TBM_{t \rightarrow t+n}=\frac{623300}{127000000}=0.004907$$
+$$TBM*1000=4.9$$
+
+La TBM se interpreta como 4.9 muertes por cada 1000 personas.
+
+##Tasa específica de mortalidad (TEM)
+
+La tasa específica de mortalidad calcula la mortalidad por grupos de
+edad y permite conocer la tasa por cada gpo de edad.
+
+La TEM se calcula porque la mortalidad es diferenciada por edad o gpo de
+edad.
+
+Por ejemplo, las personas de 0 a 9 años tienen una mayor mortalidad que
+las personas de 1-4 años o 5-9 años.
+
+$$TEM_{t \rightarrow t+n}^i=\frac{M_{t\rightarrow t+n}^i}{P_{t\rightarrow t+n}^i}$$
+donde
+
+$i es el grupo de edad$ $M_{t\rightarrow t+n}^i$ es igual a muertes del
+tiempo t al tiempo t+n $P_{t\rightarrow t+n}^i$ es la población a mitad
+del año de t a t+n.
+
+Ejemplo:
+
+| Gpo edad (1) | Muertes (2) | Pob a mitad de año (3) | TEM      | TEM\*100000 |
+|--------------|-------------|------------------------|----------|-------------|
+| \<1          | 8132        | 12243521               | 0.000679 | 67           |
+| 1 a 4        | 2132        | 12873410               | 0.00016  | 16          |
+| ...          | ...         | ...                    | ...      | ...         |
+| 65 a 69      | 95748       | 5872590                | 0.0163   | 1630        |
+| 70 y +       | 157197      | 1735817                | 0.0905   | 9050        |
+
+
+
