@@ -1,0 +1,107 @@
+
+En la demografía existen 2 conceptos que es necesario diferenciar.
+
+***Fecundidad*** se refiere al número de hijos que tienen las mujeres.
+
+***Fertilidad*** se refiere al número de de hijos que tienen las mujeres.
+
+***Fertilidadad*** se refiere a la capacidad biológica de la mujer de tener hijos.
+
+## Fecundidad
+
+Factores que imparten en la fecundidad de las mujeres.
+
+1.  Economía
+
+2.  Estado Civil
+
+3.  Fisiologícas
+
+4.  Educación
+
+5.  Cultura
+
+6.  Familia
+
+7.  Morbilidad
+
+8.  Acceso a anticonceptivo
+
+9.  Mercado de trabajo
+
+10. Fertilidad
+
+11. Política de población
+
+## Tasa Bruta de natalidad
+
+$TBN= \frac{Nacimientos}{Población}$
+
+Normalmente está TBN se utiliza de manera anual y se interpreta en miles de personas.
+
+**Ejemplo**
+
+Nacimientos= 470 900
+
+Población= 27 720 000
+
+$TBN= \frac{470000}{2772000}=0.017$
+
+La TBN también se puede interpretar multiplicandola por 1000, es decir, que en esta población nacen 17 niños por cada mil personas.
+
+## Fecundidad
+
+Cuántos hijos puede tener una mujer durante su vida fertil?
+
+Suponemos que inicia a los 15 años y termina a los 45.
+
+## Tasas específicas de fecundidad generales de fecundidad
+
+Tasas específicas de fecundidad se definen de la siguiente manera:
+
+$$TE= \frac{Nacimiento}{Pob femenina}$$
+
+[***Ejemplo***]{.smallcaps}
+
+| Edad  | Nacidos Vivos | Población femenina | TE\*1000 Japón | TE México |
+|-------|---------------|--------------------|----------------|-----------|
+| 15-19 | 14687         | 2974000            | 4.938467       | 84.29037  |
+| 20-24 | 116809        | 3404000            | 34.31522       | 147.4135  |
+| 25-29 | 307767        | 3688000            | 83.45092       | 136.2186  |
+| 30-34 | 389795        | 4286000            | 90.9461        | 94.19954  |
+| 35-39 | 209707        | 4776000            | 43.9085        | 47.47948  |
+| 40-44 | 31270         | 4243000            | 7.369786       | 13.50951  |
+
+## Tasa General de Fecundidad
+
+$$TGF= \frac{\sum_{i=1}^{44}nacimientos^{i}}{\sum_{i=15}^{44}Pob^{i}}$$
+
+Calcular la TE y TGF para México en el año 2010
+
+Natalidad general= 2,643,908
+
+Natalidad femenina = 1,317,023
+
+$TE= \frac{2,643,908}{1,317,023}=2.007488$
+
+$TGF= \frac{\sum_{i=15}^{44}nacimientos^{i}}{\sum_{i=15}^{44}Pob^{i}}$
+
+Pob Femenina de 15-44 = 5505991
+
+$$TGF=\frac{1,070,035}{23,371,000}=0.04578$$ 45.70 nacimientos por cada mil mujeres en edad de 15-44 años.
+
+| EDAD  | NACIDOS VIVOS | POBLACIÓN FEMENINA | TE EN MÉXICO |
+|-------|---------------|--------------------|--------------|
+| 15-19 | 464102        | 5505991            | 84.29037     |
+| 20-24 | 748723        | 5079067            | 147.4135     |
+| 25-29 | 624181        | 4582202            | 136.2186     |
+| 30-34 | 418695        | 4444767            | 94.19954     |
+| 35-39 | 205503        | 4328249            | 47.47948     |
+| 40-44 | 49430         | 3658904            | 13.50951     |
+
+1.  (464102/5505991)\*1000
+2.  (748723/5079067)\*1000
+3.  (624181/4582202)\*1000
+4.  (418695/4444767)\*1000
+5.  (205503/4328249)\*1000
+6.  (49430/3658904)\*1000
