@@ -1,0 +1,91 @@
+---
+title: "Causas de Mortalidad Chiapas"
+author: "Alondra Delgado"
+date: '2022-05-24'
+output: word_document
+---
+
+## Chiapas
+
+***Investigar las 5 principales causas de muerte y calcular y analizar
+los porcentajes de muertes masculina y femenina por causas de muerte,
+así como la distribución por causas de muerte y la tasa de mortalidad
+por causa (100,000 habitantes)***
+
+Se encontró que en 2020, el número de muertes en Chiapas alcanzó los
+38,908 fallecimientos, siendo las enfermedades del corazón la principal
+causa de muerte en dicho estado mexicano con 8,562 muertes.
+
+Hablaremos de 5 principales causas que entre ellos está:
+
+1.  Enfermedades del corazón
+
+2.  Diabetes mellitus
+
+3.  Tumores malignos
+
+4.  COVID-19
+
+5.  Enfermedades del hígado
+
++----------+----------+----------+----------+----------+----------+
+| Causa de | No. de   | No. de   | Total de | Total de | Població |
+| muerte    def.      |def       | def      | def      |total     |
+|            hombres  | mujeres  |          |          |          |
++:========:+:========:+:========:+:========:+:========:+:========:+
+| Enfermeda  4963     | 3599     | 8562     | 38908    | 5543828  |
+| des del      
+| corazón       
++----------+----------+----------+----------+----------+----------+
+| Diabetes  | 2913     | 3103     | 6016     | 38908    | 5543828  |
+| mellitus |          |          |          |          |          |
++----------+----------+----------+----------+----------+----------+
+| Tumores   | 1952     | 1835     | 3609     | 38908    | 5543828  |
+| malignos |          |          |          |          |          |
++----------+----------+----------+----------+----------+----------+
+| COVID-19   | 1774     | 909      | 2804     | 38908    | 5543828  |
++----------+----------+----------+----------+----------+----------+
+| Enfermeda    1628     | 852      | 2537     | 38908    | 5543828  |
+| des del     
+| hígado 
++----------+----------+----------+----------+----------+----------+
+
+Ahora procederemos a mostrar en el cuadro siguiente las 5 principales
+causas de muerte en Chiapas, así como su distribución porcentual y la
+tasa de mortalidad para cada enfermedad.
+
++----------+----------+----------+----------+------------+
+| Causa de | %        | %        | Dist.    | Tasa de    |
+| muerte   | de muerte| de muerte| de       | mortalidad |
+|          | masculina| femenina | muertes  | por causas |
+|          | por      | por      | por      | (100,000)  |
+|          | enfermeda| enfermeda| causa de |            | 
+|          | especifi.| especifi.| muerte   |            |
++:========:+==========+:========:+==========+:==========:+
+| Enfermeda| 0        | 0        | 0        | 154.442    |
+| del      | .5796543 | .4203457 | .2200576 |            |
+| corazón  |          |          |          |            |
++----------+----------+----------+----------+------------+
+| Diabetes | 0        | 0        | 0        | 108.5171   |
+| mellitus | .4842088 | .5157912 | .1546212 |            |
++----------+----------+----------+----------+------------+
+| Tumores  | 0.54087  | 0        | 0.       | 65.09942   |
+| malignos |          | .5084511 | 09275727 |            |
++----------+----------+----------+----------+------------+
+| COVID-19 | 0        | 0        | 0.       | 50.57877   |
+|          | .6326676 | .3241797 | 07206744 |            |
++----------+----------+----------+----------+------------+
+| Enfermeda| 0        | 0        | 0        | 45.7626    |
+| del      | .6417028 | .3358297 | .0652051 |            |
+| hígado   |          |          |          |            |
++----------+----------+----------+----------+------------+
+
+Tabla. Distribución porcentual por mayores causas de muerte, por sexo y
+tasa de mortalidad por causas
+
+## ***Interpretación:***
+
+En la tabla se puede observar la distribución porcentual por mayores causas de muerte por sexo y tasa de mortalidad por causas, por ejemplo, en la columna dos se expone el porcentaje de muertes masculinas por enfermedad específica. Eso quiere decir que de enfermedades del corazón 58% de las muertes fueron en los hombres y aproximadamente 42% de las muertes de enfermedades cardiovasculares fueron en mujeres, se observa que, se mueren más hombres que mujeres por enfermedades del corazón.
+Por otro lado, en la columna 3 se muestra que 52% de los fallecidos por diabetes son mujeres. Para la columna 4 se presenta la distribución total por causa de muerte. Se observa que 22% de las muertes fueron por enfermedades cardiovasculares y 15% fueron por diabetes mellius. Por último, la columna 5 tenemos la tasa de mortalidad por causa por 100,000 habitantes, en esta columna se expone que 154 personas por cada 100000 habitantes se murieron por enfermedades del corazón.
+En diabetes mellius tenemos que 108 personas murieron por esta
+enfermedad por cada 100000 habitantes.
