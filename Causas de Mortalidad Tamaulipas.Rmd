@@ -1,0 +1,83 @@
+---
+title: "Causas de Mortalidad de Tamaulipas"
+author: "Alondra Delgado"
+date: '2022-05-24'
+output: html_document
+---
+
+## Tamaulipas
+
+***Investigar las 5 principales causas de muerte y calcular y analizar los porcentajes de muertes masculina y femenina por causas de muerte, así como la distribución por causas de muerte y la tasa de mortalidad por causa (100,000 habitantes)***
+
+En 2020, el número de muertes en Tamaulipas alcanzó los 28.025 fallecimientos, siendo las enfermedades del corazón la principal causa de muerte en dicho estado mexicano con 5.828 muertes.
+
+Hablaremos de 5 principales causas que entre ellos está:
+
+1.  Enfermedades del corazón
+
+2.  COVID-19
+
+3.  Diabetes mellitus
+
+4.  Tumores malignos
+
+5.  Influenza y neumonía
+
++----------+----------+----------+----------+----------+----------+
+| Causa de | No. de   | No. de   | Total de | Total de | Població |
+| muerte    def.      |def       | def      | def      |total     |
+|            hombres  | mujeres  |          |          |          |
++:========:+:========:+:========:+:========:+:========:+:========:+
+| Enfermeda  3433     | 2395     | 5828     | 28025    | 3527735	|
+| des del      
+| corazón       
++----------+----------+----------+----------+----------+----------+
+| COVID-19 | 2889     | 1948     | 4802     | 28025    | 3527735  |
++----------+----------+----------+----------+----------+----------+
+| Diabetes | 2057     | 1913     | 4005     | 28025    | 3527735  |
+| mellitus |          |          |          |          |          |
++----------+----------+----------+----------+----------+----------+
+| Tumores  | 1343     | 1259     | 2602     | 28025    | 3527735  |
+| malignos |          |          |          |          |          |
++----------+----------+----------+----------+----------+----------+
+| Influenza  1302     | 817      | 2119     | 28025    | 3527735  
+| y     
+| neumonía 
++----------+----------+----------+----------+----------+----------+
+
+Ahora procederemos a mostrar en el cuadro siguiente las 5 principales causas de muerte en Tamaulipas, así como su distribución porcentual y la tasa de mortalidad para cada enfermedad.
+
++----------+----------+----------+----------+------------+
+| Causa de | %        | %        | Dist.    | Tasa de    |
+| muerte   | de muerte| de muerte| de       | mortalidad |
+|          | masculina| femenina | muertes  | por causas |
+|          | por      | por      | por      | (100,000)  |
+|          | enfermeda| enfermeda| causa de |            | 
+|          | especifi.| especifi.| muerte   |            |
++:========:+==========+:========:+==========+:==========:+
+| Enfermeda 0.5890528 |0.4109472 |0.2079572 |  165.2052  | 
+| des del      
+| corazón       
++----------+----------+----------+----------+------------+
+| COVID-19 |0.6016243 |0.4056643 | 0.171347 | 136.1213   | 
++----------+----------+----------+----------+------------+
+| Diabetes |0.513608  |0.4776529 |0.1429081 | 113.5289   | 
+| mellitus |          |          |          |            |       
++----------+----------+----------+----------+------------+
+| Tumores  |0.5161414 |0.4838586 |0.09284567| 73.75837    |
+| malignos |          |          |          |            |   
++----------+----------+----------+----------+------------+
+| Influenza 0.6144408 |0.3855592 |0.07561106| 60.06687    |
+| y     
+| neumonía 
++----------+----------+----------+----------+------------+
+
+Tabla. Distribución porcentual por mayores causas de muerte, por sexo y
+tasa de mortalidad por causas
+
+## ***Interpretación:***
+
+En la tabla se puede observar la distribución porcentual por mayores causas de muerte por sexo y tasa de mortalidad por causas, por ejemplo, en la columna dos se expone el porcentaje de muertes masculinas por enfermedad específica. Eso quiere decir que de enfermedades del corazón 59% de las muertes fueron en los hombres y aproximadamente 41% de las muertes de enfermedades cardiovasculares fueron en mujeres, se observa que, se mueren más hombres que mujeres por enfermedades del corazón.
+Por otro lado, en la columna 3 se muestra que 41% de los fallecidos por COVID-19 son mujeres. Para la columna 4 se presenta la distribución total por causa de muerte. Se observa que 20% de las muertes fueron por enfermedades cardiovasculares y 17% fueron por COVID-19. Por último, la columna 5 tenemos la tasa de mortalidad por causa por 100,000 habitantes, en esta columna se expone que 165 personas por cada 100000 habitantes se murieron por enfermedades del corazón.
+En COVID-19 tenemos que 136 personas murieron por esta
+enfermedad por cada 100000 habitantes.
