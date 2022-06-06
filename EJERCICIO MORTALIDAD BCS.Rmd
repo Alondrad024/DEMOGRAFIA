@@ -1,0 +1,37 @@
+---
+title: "MORTALIDAD"
+author: "Alondra Delgado"
+date: '2022-05-18'
+output: html_document
+---
+install.packages("dplyr")
+require(dplyr)
+
+bcs <- read.csv(file.choose())
+
+bcs1 <- bcs %>%
+  as_tibble() %>%
+  mutate(gpoeda = case_when(EDAD==0~ 1,
+                             EDAD>=1 & EDAD<=4~ 2,
+                             EDAD>=5 & EDAD<=9~ 3,
+                             EDAD>=10 & EDAD<=14~ 4,
+                             EDAD>=15 & EDAD<=19~ 5,
+                             EDAD>=20 & EDAD<=24~ 6,
+                             EDAD>=25 & EDAD<=29~ 7,
+                             EDAD>=30 & EDAD<=34~ 8,
+                             EDAD>=35 & EDAD<=39~ 9,
+                             EDAD>=40 & EDAD<=44~ 10,
+                             EDAD>=45 & EDAD<=49~ 11,
+                             EDAD>=50 & EDAD<=54~ 12,
+                             EDAD>=55 & EDAD<=59~ 13,
+                             EDAD>=60 & EDAD<=64~ 14,
+                             EDAD>=65 & EDAD<=69~ 15,
+                             EDAD>=70 & EDAD<=74~ 16,
+                             EDAD>=75 & EDAD<=79~ 17,
+                             EDAD>=80 & EDAD<=84~ 18,
+                             EDAD>=85 & EDAD<=110~ 19,
+                             EDAD==999~ NA_real_)) %>%
+select(gpoeda,EDAD, ENT)
+
+t1<- data.frame(table)
+
