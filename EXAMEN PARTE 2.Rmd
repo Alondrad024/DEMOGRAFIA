@@ -1,0 +1,65 @@
+---
+title: "EXAMEN PARTE 2"
+author: "Alondra Delgado"
+date: '2022-05-14'
+output: html_document
+---
+
+Ecuación compensadora… 
+(nacimientos, muertes, inmigrantes internos, emigrantes internos)
+
+ 
+# Chiapas
+
+$$ P_{2022} = P_{2020} + N_{t \rightarrow 2000-2000} +I_{t \rightarrow 2000-2000} -E_{t \rightarrow 2000-2000}$$
+
+<font size="1.5">  
+$$ Pob_{2000}=5543828$$
+ $$Pob_{2000}= 3920892	$$
+ $$N_{2000-2020}= 98098+136890)/2=117494$$
+ $$D_{2000-2020}= (38566+14921)/2=26743.5$$
+ $$I_{2000-2020}= (174961+122451)/2= 148706$$
+ $$E_{2000-2020}= (336140+678362)/2 =507251$$
+ 
+  $$ P_{2022} = 3920892 + 117494-26743.5+148706 -507251$$ </font> 
+
+## TASA DE CRECIMIENTO ANUAL
+
+$$ TCA= \frac{P_{2020}-P_{2000}}{P_{2000}}  $$
+$$ Pob_{2020}=5543828$$
+ $$Pob_{2000}= 3920892	$$
+  $$ TCA= \frac{5543828-3920892}{3920892} = 0.4139201 $$ </font> 
+
+## TASA DE CRECIMIENTO EXPONENCIAL
+
+$$ r = \frac{ \ln\left(\frac{P_{t+n}}{P_{t}}\right)}{n} $$
+
+$$ r = \frac{ \ln\left(\frac{5543828}{3920892}\right)}{20}=0.0173183029 $$
+
+# Tamaulipas
+
+$$ P_{2022} = P_{2021} + N_{t \rightarrow 2021-2022} +I_{t \rightarrow 21-22} -E_{t \rightarrow 21-22}$$
+
+<font size="1.5">  
+$$ Pob_{2020}=3527735$$
+ $$Pob_{2000}= 2753222	$$
+ $$N_{2000-2020}= (44297+71203)/2=57750$$
+ $$D_{2000-2020}= (12226+285561)/2=148893.5$$
+ $$I_{2000-2020}= (678752+764320)/2= 721536$$
+ $$E_{2000-2020}= (3707220+526943)/2 =2117082$$
+ 
+  $$ P_{2022} = 2753222 + 57750-148893.5+721536 -2117082$$ </font> 
+
+## TASA DE CRECIMIENTO ANUAL
+
+$$ TCA= \frac{P_{2020}-P_{2000}}{P_{2000}}  $$
+$$ Pob_{2020}=352773$$
+ $$Pob_{2000}= 2753222	$$
+  $$ TCA= \frac{3527735-2753222}{2753222} =  0.2813115 $$ </font> 
+
+## TASA DE CRECIMIENTO EXPONENCIAL
+
+$$ r = \frac{ \ln\left(\frac{P_{t+n}}{P_{t}}\right)}{n} $$
+
+$$ r = \frac{ \ln\left(\frac{3527735}{2753222)}\right)}{20}=0.01239420799 $$
+  

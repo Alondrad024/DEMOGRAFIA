@@ -1,0 +1,99 @@
+---
+title: "EXAMEN PARTE 3"
+author: "Alondra Delgado"
+date: '2022-05-14'
+output: html_document
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+*CHIAPAS 2020*
+
+Nacimientos= 98098
+
+Población= 554382
+
+$TBN= \frac{98098}{554382}=0.1769502$
+
+La TBN también se puede interpretar multiplicandola por 1000, es decir,
+que en esta población nacen 170 niños por cada mil personas.
+
+## Tasas específicas de fecundidad generales de fecundidad
+
+Tasas específicas de fecundidad se definen de la siguiente manera:
+
+| Edad  | Nacidos Vivos | Población femenina | Tef Chiapas |
+|-------|---------------|--------------------|-------------|
+| 15-19 | 11883         | 264056             | 0.04500182  |
+| 20-24 | 26916         | 240791             | 0.1117816   |
+| 25-29 | 25063         | 225948             | 0.1109238   |
+| 30-34 | 17517         | 211284             | 0.08290737  |
+| 35-39 | 10097         | 198593             | 0.05084268  |
+| 40-44 | 4327          | 172732             | 0.003294493 |
+| SUMA  | 95803         | 1313404            |             |
+
+## Tasa General de Fecundidad
+
+$$TGF= \frac{\sum_{i=1}^{44}nacimientos^{i}}{\sum_{i=15}^{44}Pob^{i}}$$
+$$TGF= \frac{95803}{1313404}= 0.07294252$$
+
+| Gpo edad | Nac. totales | Pob. Mujeres | nacimientos mujeres | Tef         | nacimientos hombres |
+|------------|------------|------------|------------|------------|------------|
+| 15-19    | 11883        | 264056       | 5824                | 0.04500182  | 6059                |
+| 20-24    | 26916        | 240791       | 13067               | 0.1117816   | 13849               |
+| 25-29    | 25063        | 225948       | 12359               | 0.1109238   | 12704               |
+| 30-34    | 17517        | 211284       | 8530                | 0.08290737  | 8987                |
+| 35-39    | 10097        | 198593       | 4930                | 0.05084268  | 5167                |
+| 40-44    | 4327         | 172732       | 2126                | 0.003294493 | 2201                |
+|          | 95803        | 1313404      | 46836               |             | 48967               |
+
+propsex=(48967/46936)*100=104.3272 
+S= (100/(100*104.3272 ))= 0.009585228
+
+
+*TAMAULIPAS 2020*
+
+Nacimientos= 44297
+
+Población= 3527735
+
+$TBN= \frac{44297}{3527735}=0.01255678$
+
+La TBN también se puede interpretar multiplicandola por 1000, es decir,
+que en esta población nacen 12 niños por cada mil personas.
+
+## Tasas específicas de fecundidad generales de fecundidad
+
+Tasas específicas de fecundidad se definen de la siguiente manera:
+
+| Edad  | Nacidos Vivos | Población femenina | Tef Tamaulipas |
+|-------|---------------|--------------------|----------------|
+| 15-19 | 5991          | 145715             | 0.0411145      |
+| 20-24 | 12449         | 141947             | 0.08770175     |
+| 25-29 | 12212         | 136168             | 0.08968333     |
+| 30-34 | 8316          | 131557             | 0.06321214     |
+| 35-39 | 4009          | 131959             | 0.03038065     |
+| 40-44 | 894           | 127998             | 0.006113517    |
+| SUMA  | 43871         | 815344             | 0.05380674     |
+
+## Tasa General de Fecundidad
+
+$$TGF= \frac{\sum_{i=1}^{44}nacimientos^{i}}{\sum_{i=15}^{44}Pob^{i}}$$
+$$TGF= \frac{43871}{815344}= 0.05380674$$
+
+## Tasa Bruta de Reproducción y Tasa Neta de Reproducción de las entidades asignadas
+
+| Gpo edad | Nac. totales | Mujeres | nacimientos mujeres | Tef         | nacimientos hombres |
+|------------|------------|------------|------------|------------|------------|
+| 15-19    | 5991         | 145715  | 2771                | 0.0411145   | 3220                |
+| 20-24    | 12449        | 141947  | 6178                | 0.08770175  | 6271                |
+| 25-29    | 12212        | 136168  | 5942                | 0.08968333  | 6270                |
+| 30-34    | 8316         | 131557  | 4129                | 0.06321214  | 4187                |
+| 35-39    | 4009         | 131959  | 2050                | 0.03038065  | 1959                |
+| 40-44    | 894          | 127998  | 557                 | 0.006113517 | 337                 |
+|          | 43871        | 815344  | 21627               |             | 22244               |
+
+
+propsex=(22244/21627)*100=102.8529 
+S= (100/(100*102.8529 ))= 0.009722623 

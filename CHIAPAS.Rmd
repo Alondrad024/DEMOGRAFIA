@@ -1,0 +1,80 @@
+---
+title: "Examen"
+author: "Alondra Delgado"
+date: '2022-05-13'
+output: html_document
+---
+install.packages("dplyr")
+require(dplyr)
+
+## BASE POBLACIÓN
+
+chiapas <- read.csv(file.choose())
+
+chiapas2 <- chiapas %>%
+as_tibble () %>%
+mutate (gpoeda = case_when (EDAD >= 0 & EDAD <= 9 ~ 1,
+EDAD >=10 & EDAD <=19 ~ 2,
+EDAD >=20 & EDAD <=29 ~ 3,
+EDAD >=30 & EDAD <=39 ~ 4,
+EDAD >=40 & EDAD <=49 ~ 5,
+EDAD >=50 & EDAD <=59 ~ 6,
+EDAD >=60 & EDAD <=69 ~ 7,
+EDAD >=70 & EDAD <=74 ~ 8,
+EDAD >=75 & EDAD <=130 ~ 9,
+EDAD ==999 ~ 10),
+conyu = case_when(SITUA_CONYUGAL ==1 | (SITUA_CONYUGAL>=5 & SITUA_CONYUGAL<=7) ~ 1,
+(SITUA_CONYUGAL >=2 & SITUA_CONYUGAL) <=4 ~ 2,
+SITUA_CONYUGAL == 8 & SITUA_CONYUGAL == 9~ 3),
+escolaridad= case_when(NIVACAD == 0 ~ 0, (NIVACAD==1 | NIVACAD <=3) ~ 1,
+(NIVACAD == 4 & NIVACAD == 5) ~ 2,
+(NIVACAD >= 6 & NIVACAD <= 11) ~ 3,
+(NIVACAD >= 12 & NIVACAD <= 14) ~ 4,
+NIVACAD >= 15 | NIVACAD == 99 ~ 6)) %>% 
+select(SITUA_CONYUGAL, conyu, EDAD, gpoeda, SEXO, escolaridad, NIVACAD)
+
+table (chiapas2$SEXO)
+
+table (chiapas2$escolaridad)
+
+table (chiapas2$gpoeda)
+
+table (chiapas2$SITUA_CONYUGAL)
+
+table (chiapas2$conyu)
+
+## BASE VIVIENDA
+
+chiapasvivi <- read.csv(file.choose())
+
+chiapasvivienda <- chiapasvivi %>%
+as_tibble () %>%
+mutate (clase = case_when (CLAVIVP >= 1 & CLAVIVP <= 3 ~ 1,
+CLAVIVP ==4 ~ 2,
+CLAVIVP >=5 & CLAVIVP <=9 ~ 3,
+CLAVIVP==99~ 4),
+techo = case_when(TECHOS ==1 ~ 1, (TECHOS >=2 & TECHOS <=5) ~ 2,
+TECHOS == 6 ~ 3, (TECHOS >= 7 & TECHOS <= 8) ~ 4,
+TECHOS == 10 ~ 5,
+TECHOS == 9 ~ 6,
+TECHOS == 99 ~ 7),
+bienes= case_when((REFRIGERADOR==1 & LAVADORA==3 & AUTOPROP==7 & INTERNET==7)~ 1,(REFRIGERADOR==2 & LAVADORA==4 & AUTOPROP==8 & INTERNET==8)~ 2,(REFRIGERADOR==9 & LAVADORA==9 & AUTOPROP==9 & INTERNET==9)~ 3),
+sincomer=case_when(ALIMENTACION==1~1,ALIMENTACION==3~2,
+ALIMENTACION==9~3),
+tenencia=case_when(TENENCIA==1 ~ 1,
+TENENCIA==2 ~ 2,
+TENENCIA==3 ~ 3,
+TENENCIA==4 ~ 4,
+TENENCIA==9 ~ 5)) %>% 
+select(clase, CLAVIVP, techo, TECHOS, bienes, sincomer, tenencia)
+
+
+table (chiapasvivienda$clase)
+
+table (chiapasvivienda$techo)
+
+table (chiapasvivienda$bienes)
+
+table (chiapasvivienda$sincomer)
+
+table (chiapasvivienda$tenencia)
